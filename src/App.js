@@ -58,8 +58,7 @@ export default function App() {
   return (
     <div className="App">
       <h1>
-        emoji with there{" "}
-        <span style={{ color: "rgba(20,25,213,.7)" }}>meaning</span>
+        emoji with there <span style={{ color: "lightgreen" }}>meaning</span>
       </h1>
 
       <input
@@ -70,7 +69,7 @@ export default function App() {
       <div id="meaning">
         {" "}
         Meaning <br />
-        <span style={{ color: "rgba(20,25,213,.85)" }}>{emojiMeaning}</span>
+        <span style={{ color: "yellow" }}>{emojiMeaning}</span>
       </div>
 
       {/* display the emojis usinf list */}
